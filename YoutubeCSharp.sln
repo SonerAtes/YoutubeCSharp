@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeCSharp", "YoutubeCSharp\YoutubeCSharp.csproj", "{1E6FE1F7-6F17-490F-95A0-E08F49222DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeCSharp", "YoutubeCSharp\YoutubeCSharp.csproj", "{1E6FE1F7-6F17-490F-95A0-E08F49222DEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{FE4472E2-F867-4AE5-8B9F-B887EAEE9285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{FE39A5B1-8D4D-4890-A435-5BC57DA6B129}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FE4472E2-F867-4AE5-8B9F-B887EAEE9285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE4472E2-F867-4AE5-8B9F-B887EAEE9285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE4472E2-F867-4AE5-8B9F-B887EAEE9285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE39A5B1-8D4D-4890-A435-5BC57DA6B129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE39A5B1-8D4D-4890-A435-5BC57DA6B129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE39A5B1-8D4D-4890-A435-5BC57DA6B129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE39A5B1-8D4D-4890-A435-5BC57DA6B129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
