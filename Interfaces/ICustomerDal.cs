@@ -15,7 +15,7 @@ namespace Interfaces
     {
         public void Add()
         {
-            Console.WriteLine("Sql Added!");
+            Console.WriteLine("Sql Added");
         }
 
         public void Delete()
@@ -32,7 +32,7 @@ namespace Interfaces
     {
         public void Add()
         {
-            Console.WriteLine("Oracle Added!");
+            Console.WriteLine("Oracle Added");
         }
 
         public void Delete()
