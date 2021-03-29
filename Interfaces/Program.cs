@@ -8,7 +8,7 @@ namespace Interfaces
         {
             //Hem oracle a hem de sql e yazdırmak istersek aşağıdaki kodu kullanıyoruz.
             //Bir dataya elimizdeki bütün verileri göndermek için kullanıyoruz.
-            ICustomerDal[] customerDals = new ICustomerDal[2] 
+            ICustomerDal[] customerDals = new ICustomerDal[2]
             {
                 new SqlServerCustomerDal(),
                 new OracleCustomerDal()
@@ -27,8 +27,8 @@ namespace Interfaces
             {
                 Id = 1,
                 FirstName = "Soner",
-                LastName="ATEŞ",
-                Address="ANTALYA"
+                LastName = "ATEŞ",
+                Address = "ANTALYA"
             };
 
             Student student = new Student
